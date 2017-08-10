@@ -9,7 +9,8 @@ The Docker base containers for 6 and 7 are now created with tools included in Ce
 
 The following packages and dependencies are needed:
 
- yum install -y libguestfs-tools-c lorax virt-install
+  yum install -y libguestfs-tools-c lorax virt-install libvirt
+  systemctl start  libvirtd
 
 
 ## Build
